@@ -16,6 +16,9 @@ A aplicação consiste em criar projeto de web services com Spring Boot e JPA / 
 - CRUD - Create, Retrieve, Update, Delete
 - Tratamento de exceções
 
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/haylonmosinhodev/assets/blob/main/domain%20model.jpg)
+
 
 # Tecnologias utilizadas
 ## Back end
@@ -32,7 +35,29 @@ A aplicação consiste em criar projeto de web services com Spring Boot e JPA / 
 ## Back end
 Pré-requisitos: Java 17
 
+# Como executar o projeto
+- Utilizar o Postman para fazer requesições ao sistema.
+- Exemplo de cadastro de usuario:
+```json
+{
+    "name" : "Haylon Mosinho",
+    "email": "haylon@gmail.com",
+    "password": "123456",
+    "phone": "99999999999"
+}
+```
+  
+![Cadastrando Usuario](https://github.com/haylonmosinhodev/assets/blob/main/postman%20get%20usuario.jpg)
+
+- https://course-javasb-ab828fa92814.herokuapp.com/users
+
 ```bash
 # clonar repositório
 git clone https://github.com/haylonmosinhodev/workshop-springboot3-jpa.git
 ```
+
+# Autor
+
+Haylon Mosinho
+
+https://www.linkedin.com/in/haylonmosinho/
