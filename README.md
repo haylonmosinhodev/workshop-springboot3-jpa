@@ -26,10 +26,12 @@ A aplicação consiste em criar projeto de web services com Spring Boot e JPA / 
 - Spring Boot
 - JPA / Hibernate
 - Maven
+- H2
+- Apache Tomcat
 
 
 ## Implantação em produção
-- Back end: Heroku - 
+- Back end: Heroku  
 - Banco de dados: Postgresql
 - Aos estutandantes matriculados regulamente em instituição de ensino, estou usando creditos disponibilizados pelo GitHub Student Developer Pack, 300$ para uso no Heroku em 2 anos.
 
