@@ -29,8 +29,9 @@ A aplicação consiste em criar projeto de web services com Spring Boot e JPA / 
 
 
 ## Implantação em produção
-- Back end: Heroku
+- Back end: Heroku - 
 - Banco de dados: Postgresql
+- Aos estutandantes matriculados regulamente em instituição de ensino, estou usando creditos disponibilizados pelo GitHub Student Developer Pack, 300$ para uso no Heroku em 2 anos.
 
 ## Back end
 Pré-requisitos: Java 17
@@ -55,9 +56,12 @@ Pré-requisitos: Java 17
 # clonar repositório
 git clone https://github.com/haylonmosinhodev/workshop-springboot3-jpa.git
 ```
-
+ 
 # Autor
 
 Haylon Mosinho
 
 https://www.linkedin.com/in/haylonmosinho/
+
+
+
