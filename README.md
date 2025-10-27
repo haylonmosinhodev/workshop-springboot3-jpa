@@ -44,7 +44,7 @@ Pré-requisitos: Java 17
 
 
 - Utilizar o Postman para fazer requisições ao sistema implantado no Heroku .
-- Exemplo de cadastro de usuario:
+- Exemplo de cadastro de usuario: No postman altera de GET para POST.
 ```json
 {
     "name" : "Haylon Mosinho",
