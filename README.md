@@ -39,7 +39,11 @@ A aplicação consiste em criar projeto de web services com Spring Boot e JPA / 
 Pré-requisitos: Java 17
 
 # Como executar o projeto
-- Utilizar o Postman para fazer requesições ao sistema.
+- Localmente com H2-CONSOLE = Nos arquivos do projeto vá para o pacote src/main/resources/application.properties e altere para perfil de teste (spring.profiles.active=test).
+  Na barra de endereço do navegador lance: localhost:8080/h2-console.
+
+
+- Utilizar o Postman para fazer requisições ao sistema implantado no Heroku .
 - Exemplo de cadastro de usuario:
 ```json
 {
